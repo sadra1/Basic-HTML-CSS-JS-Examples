@@ -3,8 +3,8 @@
 // the computer will ignore it entierly
 
 // let's do some simple math
-var number = 18 + 27;
-console.log(number);
+//var number = 18 + 27;
+//console.log(number);
 
 //confirm("This is the best website ever!");
 
@@ -13,7 +13,7 @@ console.log(number);
 //var anotherNumber = 42;
 //console.log(anotherNumber);
 
-var aString = "This is a string.";
+//var aString = "This is a string.";
 //console.log(aString);
 
 // how long is the string?
@@ -68,6 +68,11 @@ if (aString.length !== "This is a string") {
   console.log('do this');
 }
 */
+
+var divideBy23 = function(Num){
+  var result = (Num/23)
+  console.log(result)
+}
 
 
 
